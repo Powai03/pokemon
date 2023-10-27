@@ -13,7 +13,7 @@ let kilian = new personnage("Kilian");
 
 while (kilian.psm > 0 && feuRouge != 0) {
     let musiqueJouée = Math.floor(Math.random() * 4);
-        if (parseInt(musiqueJouée) == 0){
+        if (musiqueJouée == 0){
             kilian.psm --;
             changement ++;
             console.log("La Radio passe Anissa de Wejdene, ça gonfle " + kilian.prenom + ", il change de taxi.");
